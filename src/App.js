@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Main from './components/Main';
+import Section1 from './sections/section1/Section1';
+import Chalange1 from './sections/section1/Chalange1';
 
 function App() {
   return (
     <>
-      <Main/>
-      <Main/>
-      <Main/>
+    {/* <Section1/> */}
+    <Chalange1/>
     </>
   );
 }
