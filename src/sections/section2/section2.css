@@ -1,0 +1,71 @@
+
+main{
+width: 100vw;    
+display: flex;
+justify-content: center;
+
+
+}
+
+.container{
+    border: 1px solid red;
+    position: relative;
+}
+nav{
+    text-align: center;
+    background-color: whitesmoke;
+ 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    padding: 25px;
+    color: red;
+    width: 100%;
+    border: 3px solid red;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: black;
+}
+.colors{
+    display: flex;
+    
+    
+}
+li{
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+.first{
+    background-color: red;
+}
+.sec{
+    background-color: rgb(68, 36, 36);
+}
+.third{
+    background-color: rgb(47, 218, 13);
+}
+.four{
+    background-color: rgb(33, 22, 187);
+}
+.five{
+    background-color: rgb(206, 226, 26);
+}
+
+.sale{
+    border: 3px solid red;
+    width: 75px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 0px;
+     background-color: red;
+    left: -35px;
+}
