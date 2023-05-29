@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-
-import Section3 from './sections/section3/Section3';
+import Section4 from './sections/section4/Section4';
 
 
 function App() {
   return (
     <>
-    <Section3 />
+    
+    <Section4 />
     </>
   );
 }
