@@ -1,0 +1,45 @@
+.pagination{
+    display: flex;
+    gap: 20px;
+}
+body{
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    width:70px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(7, 110, 77);
+    border: 1px solid rgb(7, 110, 77);
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(7, 110, 77);
+}
+
+h3:hover{
+    background-color: rgb(7, 110, 77);
+    color:white;
+}
+h3, h2{
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    border-radius: 50%;
+}
+.open{
+    background-color: rgb(7, 110, 77);
+    color: white;
+    
+}
+.dots{
+    background-color: white;
+    
+}

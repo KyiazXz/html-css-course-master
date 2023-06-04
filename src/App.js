@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Carousel from './components/carousel/Carousel';
+import Paginaiton from './components/pagination/Paginaiton';
 
 
 function App() {
   return (
     <>
-    <Carousel/>
+<Paginaiton />
     </>
   );
 }

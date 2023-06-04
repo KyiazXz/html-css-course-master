@@ -1,6 +1,6 @@
 
 
-button{
+/* button{
   width: 50px;
 }
 .btn-left{
@@ -17,14 +17,14 @@ img{
   height: 200px;
   border-radius: 10px;
   box-shadow: 0 0 32px black;
-  transform: scale(1.5);
+  transform: scale(1.5); */
   /* transition: transform .3s */
   
-}
+/* } */
 /* img:hover{
   transform:scale(1.5)
 } */
-.carousel{
+/* .carousel{
   height: 220px;
   width: 700px;
   margin: 100px auto;
@@ -54,4 +54,4 @@ img{
 .testimonial-job{
   font-size: 12px;
   color: aliceblue;
-}
+} */

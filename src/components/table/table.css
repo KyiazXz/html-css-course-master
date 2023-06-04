@@ -1,0 +1,35 @@
+ /* GENERAL STYLES */
+  /* main-color = #087f5b */
+  /* grey-color = #495057 */
+/* 
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* table{
+    width: 700px; */
+    /* border: 1px  #495057 solid; */
+    /* border-collapse: collapse; */
+  /* } */
+  /* td, th{
+    /* border: 1px  #495057 solid;  */
+    /* padding: 16px 24px;
+    text-align: left; */
+ /* } */
+ /* thead{
+    font-size: ;
+    background-color: #087f5b;
+    color: white;
+ }
+ th{
+    width: 25%;
+ } */
+ /* tbody tr:nth-child(even){
+    background-color: darkgrey;
+ }
+ tbody tr:nth-child(odd){
+    background-color: rgb(220, 220, 220);
+   }
