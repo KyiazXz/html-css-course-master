@@ -1,12 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Paginaiton from './components/pagination/Paginaiton';
-
-
+import Hero from './section/hero/Hero';
 function App() {
   return (
     <>
-<Paginaiton />
+< Hero/>
     </>
   );
 }

@@ -1,0 +1,67 @@
+/* 
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;1,600&family=Playfair+Display:ital,wght@0,400;1,600&family=Roboto:wght@700&family=Rubik:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ body{
+    font-family: "Rubik", sans-serif;
+  }
+  .container{
+    margin: 0 auto;
+    width: 1200px;
+  } 
+  header{
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(86, 94, 137, 0.52), rgba(36, 60, 103, 0.73)),
+    url(https://wallpapercave.com/uwp/uwp3768770.jpeg);
+  }
+  nav{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+  h1{
+    font-size: 52px;
+    margin-bottom: 32px;
+    line-height: 1.0;
+  }
+  p{
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 48px;
+  }
+  .btn{
+    font-size: 32px;
+    font-weight: 500;
+    background-color: rgb(225, 141, 7);
+    color: white;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 9px;
+  }
+  h2{
+    font-size: 44px;
+    margin-bottom: 48px;
+
+  }
+  section{
+    padding: 150px 0;
+  }
+  .header-container{
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .hearder-inner{
+    width: 50%;
+  } */

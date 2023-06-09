@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: sans-serif;
+    color: black;
+    font-size: 24px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 80px 400px 1fr 250px;
+    grid-template-rows: 80px 1fr;
+    text-align: center;
+    font-weight: bold;
+}
+nav, menu, main, section, aside{
+    padding: 24px;
+}
+nav{
+    background-color: #3b5bdb;
+    grid-row: 1/-1
+
+}
+menu{
+    color: white;
+    background-color: #260a7b;
+    grid-column: 2/-1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+button{
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: #6741d9;
+    padding: 8px 12px;
+    display: inline-block;
+
+}
+button:last-child{
+    background-color: red;
+    margin-left: auto;
+}
+section{
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+    overflow: scroll;
+
+}
+.email{
+    background-color: rgb(157, 157, 157);
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;   
+}
+aside{
+    background-color: beige;
+}
