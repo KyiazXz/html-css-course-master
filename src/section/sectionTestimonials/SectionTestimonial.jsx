@@ -5,14 +5,11 @@ export default function SectionTestimonial() {
   return (
     <section className='section-testimonials  '>
         <div className='testimonials-container'>
-      <span class="subheading">Testimonials</span>
-      <h2 class="heading-secondary">
+      <span className="subheading">Testimonials</span>
+      <h2 className="heading-secondary">
         
 Omnifood AI chooses from 5,000+ recipes
       </h2>
-    
-
-  
 
 
             <div className='testimonials'>

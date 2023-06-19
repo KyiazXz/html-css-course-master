@@ -3,26 +3,26 @@ import React from 'react'
 export default function Meals() {
   return (
    
-    <section class="section-meals">
-    <div class="container center-text">
-      <span class="subheading">Meals</span>
-      <h2 class="heading-secondary">
+    <section className="section-meals">
+    <div className="container center-text">
+      <span className="subheading">Meals</span>
+      <h2 className="heading-secondary">
         Omnifood AI chooses from 5,000+ recipes
       </h2>
     </div>
 
-    <div class="container grid grid--3-cols margin-bottom-md">
-      <div class="meal">
+    <div className="container grid grid--3-cols margin-bottom-md">
+      <div className="meal">
         <img
           src="./img/meal/meal-1.jpg"
-          class="meal-img"
+          className="meal-img"
           alt="Japanese Gyozas"
         />
-        <div class="meal-content">
-          <div class="meal-tags">
-            <span class="tag tag--vegetarian">Vegetarian</span>
+        <div className="meal-content">
+          <div className="meal-tags">
+            <span className="tag tag--vegetarian">Vegetarian</span>
           </div>
-          <p class="meal-title">Japanese Gyozas</p>
+          <p className="meal-title">Japanese Gyozas</p>
           <ul class="meal-attributes">
             <li class="meal-attribute">
               <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
@@ -43,19 +43,19 @@ export default function Meals() {
         </div>
       </div>
 
-      <div class="meal">
+      <div className="meal">
         <img
           src="./img/meal/meal-2.jpg"
-          class="meal-img"
+          className="meal-img"
           alt="Avocado Salad"
         />
-        <div class="meal-content">
-          <div class="meal-tags">
-            <span class="tag tag--vegan">Vegan</span>
-            <span class="tag tag--paleo">Paleo</span>
+        <div className="meal-content">
+          <div className="meal-tags">
+            <span className="tag tag--vegan">Vegan</span>
+            <span className="tag tag--paleo">Paleo</span>
           </div>
-          <p class="meal-title">Avocado Salad</p>
-          <ul class="meal-attributes">
+          <p className="meal-title">Avocado Salad</p>
+          <ul className="meal-attributes">
             <li class="meal-attribute">
               <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
               <span><strong>400</strong> calories</span>
@@ -75,8 +75,8 @@ export default function Meals() {
         </div>
       </div>
 
-      <div class="diets">
-        <h3 class="heading-tertiary">Works with any diet:</h3>
+      <div className="diets">
+        <h3 className="heading-tertiary">Works with any diet:</h3>
         <ul class="list">
           <li class="list-item">
             <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>

@@ -4,6 +4,9 @@ import SectionHow from '../sectionHow/SectionHow'
 import SectionFeatured from '../sectionFeatured/SectionFeatured'
 import Meals from '../meals/Meals'
 import SectionTestimonial from '../sectionTestimonials/SectionTestimonial'
+import Pricing from '../pricing/Pricing'
+import Action from '../action/Action'
+
 
 export default function Hero() {
  return  (
@@ -51,6 +54,8 @@ export default function Hero() {
    <SectionHow />
     <Meals/>
     <SectionTestimonial/>
+    <Pricing/>
+    <Action/>
     </main>
     </>
   )
