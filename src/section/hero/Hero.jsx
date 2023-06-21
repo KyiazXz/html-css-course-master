@@ -6,6 +6,7 @@ import Meals from '../meals/Meals'
 import SectionTestimonial from '../sectionTestimonials/SectionTestimonial'
 import Pricing from '../pricing/Pricing'
 import Action from '../action/Action'
+import Footer from '../footer/Footer'
 
 
 export default function Hero() {
@@ -56,6 +57,7 @@ export default function Hero() {
     <SectionTestimonial/>
     <Pricing/>
     <Action/>
+    <Footer />
     </main>
     </>
   )

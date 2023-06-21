@@ -16,12 +16,12 @@ export default function Action() {
 
                         <form className='cta-form' action='#'>
                      <div>
-                            <label for="full-name">Full Name</label>
+                            <label >Full Name</label>
         	                <input id="full name"type='text' placeholder='John ' required />
                       </div>
 
                         <div>
-                            <label for=""email>Email addres</label>
+                            <label >Email addres</label>
                             <input  id="email" type='email' required/>
                             
                         </div>
