@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+/* 
+main color: rgb(238,237,254)
+button-color:rgb(87,84,247)
+ */
+
+
+
+
+
+.grid{
+    display: grid;
+}
+.flex{
+    display: flex;
+}
+.grid-2-cols{
+    grid-template-columns: 1fr 1fr;
+}
+.gap{
+    gap: 2rem;
+}
+
+.main-container{
+    margin: 0 auto ;
+    width: 1200px;
+    background-color: rgb(238,237,254);
+    padding-top: 6rem;
+}
+.main-headin-container{
+    margin-top: 10rem;
+    margin-left: 8rem;
+}
+.main-headin-container h1{
+    font-size: 4.8rem;
+}
+.main-heading{
+    font-size: 1.8rem;
+
+}
+.subheading-container p{
+    margin-left: 8rem;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.button-container{
+    margin-left: 8rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+    width: 40rem;
+   
+
+}
+.button-container a{
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    background-color:rgb(87,84,247) ;
+    padding:1rem;
+    width: 15rem;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.icon-container{
+    justify-content: center;
+    align-items: center;
+    
+}
+.myReact-icons{
+    font-size: 3.2rem;
+    text-align: center;
+    color: rgb(87,84,247);
+    
+}
+.button-container p{
+    font-size: 2rem;
+    padding:1rem;
+    width: 10rem;
+    text-align: center;
+   font-weight: 500;
+}
+
+.image-container{
+    justify-content: center;
+}
+.img{ 
+    background-image: url('https://templatekit.jegtheme.com/verbalizer/wp-content/uploads/sites/117/2021/06/image-JA74V7F-746x1024.png');
+    background-position: 100%;
+    background-size: cover;
+    width: 40rem;
+    height: 55rem;
+    filter: drop-shadow(0px -8px 8px #000);
+
+}

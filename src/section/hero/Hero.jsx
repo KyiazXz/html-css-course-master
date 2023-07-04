@@ -1,5 +1,6 @@
 import React from 'react'
 import "./hero.css"
+import "../queres.css"
 import SectionHow from '../sectionHow/SectionHow'
 import SectionFeatured from '../sectionFeatured/SectionFeatured'
 import Meals from '../meals/Meals'
