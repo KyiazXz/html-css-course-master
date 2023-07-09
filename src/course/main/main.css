@@ -11,7 +11,17 @@ button-color:rgb(87,84,247)
 
 
 
+/* super feature
 
+
+ object-fit: contain;
+    margin: auto;
+    animation: animate 3s infinite ease alternate;  
+} 
+@keyframes animate {
+      to {
+        transform: translateY(20px);
+      }*/
 
 .grid{
     display: grid;
@@ -25,11 +35,17 @@ button-color:rgb(87,84,247)
 .gap{
     gap: 2rem;
 }
+.main{
+    background-color: rgb(238,237,254);
+}
+.learn{
+    background-color: rgb(250,248,249);
+}
 
 .main-container{
     margin: 0 auto ;
     width: 1200px;
-    background-color: rgb(238,237,254);
+    /* background-color: rgb(238,237,254); */
     padding-top: 6rem;
 }
 .main-headin-container{
@@ -87,10 +103,21 @@ button-color:rgb(87,84,247)
     text-align: center;
    font-weight: 500;
 }
+.avatar-container{
+    display: block;
+    margin-right: 30rem;
+    padding: 4rem;
+}
+
+
 
 .image-container{
     justify-content: center;
-}
+    position: relative;
+    z-index: 0
+    }
+
+    
 .img{ 
     background-image: url('https://templatekit.jegtheme.com/verbalizer/wp-content/uploads/sites/117/2021/06/image-JA74V7F-746x1024.png');
     background-position: 100%;
@@ -99,4 +126,88 @@ button-color:rgb(87,84,247)
     height: 55rem;
     filter: drop-shadow(0px -8px 8px #000);
 
+}
+
+.image-container::before{
+    content: "div";
+    background-color: rgb(230,229,255);
+    width: 50rem;
+    height: 50rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+    z-index: 0;
+    
+    
+}
+.image-container::after{
+    content: "div";
+    background-color: rgb(87,84,247);
+    width: 60rem;
+    height: 50rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    border-radius: 50%;
+    z-index:-1 ;
+}
+
+
+/* learn anything */
+
+.margin-left{
+    margin-left: 8rem;
+}
+
+
+.learn-img-container img{
+    width: 40rem;
+    height: 55rem;   
+}
+.learn-topics-container{
+    margin-top: 2rem;
+}
+
+.learn-topics-title{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color:rgb(87,84,247);
+    font-weight: 600;
+    letter-spacing: 0.01px;
+
+}
+.learn-topics-header, .learn-topics-header-2{
+    font-weight: 700;
+    font-size: 3.8rem;
+}
+.learn-topics-header{
+    margin-top: 1rem;
+}
+
+.learn-icon{
+  margin-top: 1rem;
+  font-size: 3.2rem;
+  color: rgb(87,84,247);
+}
+.topics{
+    margin-top: 3.2rem;
+    flex-direction: column;
+}
+.topic{
+    border: 2px solid;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 40rem;
+}
+.topic-name h1{
+    font-size: 2rem;
+    color: #495057;
+    
 }
