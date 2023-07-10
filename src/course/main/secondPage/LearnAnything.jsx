@@ -3,13 +3,25 @@ import { ImBooks} from 'react-icons/im';
 import {IconContext} from "react-icons";
 import { TbCertificate} from 'react-icons/tb';
 import {FaChalkboardTeacher} from 'react-icons/fa';
+import {MdPeopleAlt} from 'react-icons/md';
 
 export default function LearnAnything() {
   return (
     <div className='learn'>
 
     <div className=' main-container grid grid-2-cols'>
-        <div className='learn-img-container margin-left'> 
+        <div className='learn-img-container margin-left '> 
+        <div className='activate-students-container flex gap '>
+                  <div className='icon-cont'>
+                  <IconContext.Provider value={{className:"activate-student-icon"}}>
+                    <MdPeopleAlt/> 
+                    </IconContext.Provider>
+                    </div>
+                  <div className='topic-name'>
+                    <h1>1250+</h1>
+                    <p>Activate Stundents</p>
+                  </div>
+            </div>
         <img src='./course/boy.png' alt='boy reading book' />
         </div>
         <div className='learn-topics-container'>

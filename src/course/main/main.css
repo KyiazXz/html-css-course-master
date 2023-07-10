@@ -35,6 +35,10 @@ button-color:rgb(87,84,247)
 .gap{
     gap: 2rem;
 }
+.gap-row{
+    row-gap: 3rem;
+}
+
 .main{
     background-color: rgb(238,237,254);
 }
@@ -46,7 +50,7 @@ button-color:rgb(87,84,247)
     margin: 0 auto ;
     width: 1200px;
     /* background-color: rgb(238,237,254); */
-    padding-top: 6rem;
+    /* padding-top: 6rem; */
 }
 .main-headin-container{
     margin-top: 10rem;
@@ -158,12 +162,38 @@ button-color:rgb(87,84,247)
     border-radius: 50%;
     z-index:-1 ;
 }
+/* elementor-section */
+.elementor-section{
+    margin: 0 auto;
+    width: 1200px;
+}
 
+.elementor{
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 24rem;
+    align-items: center;
 
+}
+
+.elementor-icon-cont{
+    width: 4rem;
+    height: 4rem;
+    padding: 0.8rem;
+    align-items: center;
+}
+.elementor-learn-icon{
+    font-size: 3.2rem;
+    color: rgb(87,84,247);
+}
 /* learn anything */
 
 .margin-left{
     margin-left: 8rem;
+}
+.learn-img-container{
+    position: relative;
+    z-index: 0;
 }
 
 
@@ -171,8 +201,41 @@ button-color:rgb(87,84,247)
     width: 40rem;
     height: 55rem;   
 }
+.learn-img-container::before{
+    content:"";
+    background-color: rgb(87,84,247);
+    width: 50rem;
+    height: 45rem;
+    position: absolute;
+    z-index: -1;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+
 .learn-topics-container{
     margin-top: 2rem;
+}
+.activate-students-container{
+    border: 4px solid rgb(230,229,255);
+    width: 15rem;
+    padding: 1rem;
+    position: absolute;
+    margin-left: 30rem;
+    background-color:  rgb(230,229,255);
+    margin-top: 8rem;
+    border-radius: 1rem;
+    object-fit: contain;
+    animation: animate 3s infinite ease alternate;  
+} 
+@keyframes animate {
+      to {
+        transform: translateY(20px);
+      }
+    }
+.activate-student-icon{
+    margin-top: 1rem;
+    font-size: 3.2rem;
+    color: rgb(87,84,247);
 }
 
 .learn-topics-title{

@@ -4,6 +4,9 @@ import {IconContext} from "react-icons";
 import LearnAnything from './secondPage/LearnAnything';
 import Avatar from '@mui/material/Avatar';
 import AvatarGroup from '@mui/material/AvatarGroup';
+import {FaChalkboardTeacher} from 'react-icons/fa';
+import {BsLaptop,BsBook,BsPeopleFill} from 'react-icons/bs';
+
 
 
 import "./main.css"
@@ -59,6 +62,55 @@ export default function Main() {
               </div>
 
 
+<div className='elementor-section '>
+  <div className='margin-left flex gap'>
+
+<div className='elementor flex  '>
+                  <div className='elementor-icon-cont flex'>
+                  <IconContext.Provider value={{className:"elementor-learn-icon"}}>
+                    <BsLaptop/> 
+                    </IconContext.Provider>
+                    </div>
+                  <div className='topic-name '>
+                    <h1>Online Tutoring</h1>                  
+                    </div>
+            </div>
+
+            <div className='elementor flex  '>
+                  <div className='elementor-icon-cont flex'>
+                  <IconContext.Provider value={{className:"elementor-learn-icon"}}>
+                    <BsBook/> 
+                    </IconContext.Provider>
+                    </div>
+                  <div className='topic-name '>
+                    <h1>50+ Courses</h1>                 
+                    </div>
+            </div>
+
+            <div className='elementor flex  '>
+                  <div className='elementor-icon-cont flex'>
+                  <IconContext.Provider value={{className:"elementor-learn-icon"}}>
+                    <BsPeopleFill/> 
+                    </IconContext.Provider>
+                    </div>
+                  <div className='topic-name '>
+                    <h1>Lifetime Access</h1>                  
+                    </div>
+            </div>
+
+            <div className='elementor flex  '>
+                  <div className='elementor-icon-cont flex'>
+                  <IconContext.Provider value={{className:"elementor-learn-icon"}}>
+                    <BsPeopleFill/> 
+                    </IconContext.Provider>
+                    </div>
+                  <div className='topic-name '>
+                    <h1>Activate </h1>                  
+                    </div>
+            </div>
+</div>
+
+  </div>
 
         <LearnAnything/>
     </>
