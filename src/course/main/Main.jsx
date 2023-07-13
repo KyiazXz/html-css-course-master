@@ -1,12 +1,11 @@
 import React from 'react'
 import { BsFillPlayCircleFill} from 'react-icons/bs';
 import {IconContext} from "react-icons";
-import LearnAnything from './secondPage/LearnAnything';
+import LearnAnything from '../secondPage/LearnAnything';
 import Avatar from '@mui/material/Avatar';
 import AvatarGroup from '@mui/material/AvatarGroup';
-import {FaChalkboardTeacher} from 'react-icons/fa';
 import {BsLaptop,BsBook,BsPeopleFill} from 'react-icons/bs';
-
+import CoursesWeOffer from '../coursesWeOffer/CoursesWeOffer';
 
 
 import "./main.css"
@@ -113,6 +112,7 @@ export default function Main() {
   </div>
 
         <LearnAnything/>
+        <CoursesWeOffer/>
     </>
   )
 }
