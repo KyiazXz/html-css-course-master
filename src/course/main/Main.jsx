@@ -6,6 +6,7 @@ import Avatar from '@mui/material/Avatar';
 import AvatarGroup from '@mui/material/AvatarGroup';
 import {BsLaptop,BsBook,BsPeopleFill} from 'react-icons/bs';
 import CoursesWeOffer from '../coursesWeOffer/CoursesWeOffer';
+import BookCourse from '../book/BookCourse';
 
 
 import "./main.css"
@@ -113,6 +114,7 @@ export default function Main() {
 
         <LearnAnything/>
         <CoursesWeOffer/>
+        <BookCourse/>
     </>
   )
 }
